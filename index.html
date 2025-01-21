@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title> Index </title>
-    </head>
-    <body>
-        An image who describe me
-    <img src="./chien chauve.jfif"> 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Photo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .album-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            margin: 0;
+        }
+        .photo {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 3px solid #ddd;
+        }
+        .photo .caption {
+            padding: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .photo .caption h3 {
+            margin: 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mon Album Photo</h1> <h2><a href="code2.HTML">retour</a></h2>
+    <div class="album-container">
+        <div class="photo">
+            <img src="img/shrek.jfif" alt="shrek">
+            <div class="caption">
+                <h3>shrek </h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/sonic.jfif" alt="sonic">
+            <div class="caption">
+                <h3>Sonic 
+                </h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/chien chauve.jfif" alt="chien chauve">
+            <div class="caption">
+                <h3>Chien</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/mono doigt de pied.jfif" alt="mono doigt de pied">
+            <div class="caption">
+                <h3>Doigt de pied</h3>
+            </div>
+        </div>
+    </div>
+    <div class="album-container">
+        <div class="photo">
+            <img src="img/pomme.jfif" alt="pomme">
+            <div class="caption">
+                <h3>Une pomme</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/cyclope.jfif" alt="cyclope">
+            <div class="caption">
+                <h3>Un homme</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/jamal.jfif" alt="Jamal">
+            <div class="caption">
+                <h3>Jamal</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/monstre.jfif" alt="monstre">
+            <div class="caption">
+                <h3>Monstre</h3>
+            </div>
+        </div>
+        <!-- Ajoutez autant d'images que vous le souhaitez -->
+    </div>
+    <div class="album-container">
+        <div class="photo">
+            <img src="img/amadou.jfif" alt="amadou">
+            <div class="caption">
+                <h3>amadou</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/un homme en rouge.jfif" alt="un homme 2">
+            <div class="caption">
+                <h3>Un homme 2</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/un ogre.jfif" alt="un ogre">
+            <div class="caption">
+                <h3>un ogre</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="img/oiseau qui est mouillé.jfif" alt="oiseau qui est mouillé">
+            <div class="caption">
+                <h3>oiseau qui est mouillé</h3>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
